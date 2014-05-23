@@ -3,6 +3,11 @@ require 'httmultiparty'
 require 'uri'
 
 require "dota2/version"
+require 'dota2/array_response_wrapper'
+require 'dota2/client'
+require 'dota2/hash_response_wrapper'
+require 'dota2/response_error'
+require 'dota2/version'
 
 module Dota2
 
