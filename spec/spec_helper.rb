@@ -1,7 +1,8 @@
 # spec_helper.rb
-require 'vmc'
+require 'rspec/autorun'
 require 'rspec'
 require 'webmock/rspec'
+require 'dota2'
 
 def fixture_path
   File.expand_path("../fixtures", __FILE__)
